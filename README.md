@@ -64,7 +64,18 @@ A player completed the game when every question in the session's question set ha
 
 ## Tables
 
-users, question_sets, game_sessions, questions, players, player_question_progress, answers, leaderboard, retry_pool, book_effects
+## Tables
+
+- `users`: fictional game accounts and school IDs.
+- `question_sets`: sets of questions used by sessions.
+- `game_sessions`: hosted games, join codes, and start/end times.
+- `questions`: question text, choices, and correct answer.
+- `players`: users participating in a game session.
+- `player_question_progress`: each player's completion and attempts per question.
+- `answers`: submitted answer choices and correctness.
+- `leaderboard`: player scores and ranks.
+- `retry_pool`: questions available for another attempt.
+- `book_effects`: book-related game effects.
 
 ## Database scripts
 
